@@ -4,8 +4,6 @@ const app = express();
 
 const USERS = [
     { id: 1, name: "Alice", age: 23 },
-    { id: 2, name: "Bob", age: 12 },
-
 ];
 
 app.get("/", (req, res) => {
