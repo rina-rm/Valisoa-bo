@@ -5,7 +5,7 @@ const app = express();
 const USERS = [
     { id: 1, name: "Alice", age: 23 },
     { id: 2, name: "Bob", age: 12 },
-    { id: 3, name: "Charlie", age: 30 },
+
 ];
 
 app.get("/", (req, res) => {
